@@ -7,8 +7,16 @@ import { useEffect } from 'react';
 
 import flag from 'src/assets/images/canada-svgrepo-com.svg';
 
-import { Card, Image, Pagination } from 'semantic-ui-react';
+import { Card, Image } from 'semantic-ui-react';
 import { getDestinations } from 'src/actions/listActions';
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+import { saveFavoritesDestination } from 'src/actions/favoritesActions';
+>>>>>>> Stashed changes
+=======
+import { saveFavoritesDestination } from 'src/actions/favoritesActions';
+>>>>>>> Stashed changes
 import Loading from '../Loading';
 
 // == Composant
@@ -56,14 +64,6 @@ const List = () => {
             </Card>
           ))}
         </Card.Group>
-        <Pagination
-          defaultActivePage={1}
-          firstItem={null}
-          lastItem={null}
-          pointing
-          secondary
-          totalPages={3}
-        />
       </>
       )}
     </div>
