@@ -9,6 +9,13 @@
   background-color: vars.$header-main-color;
   color: vars.$lightest-color;
 
+  &__404 {
+    height: 2rem;
+    width: 2rem;
+    border: none;
+    background-color: transparent;
+  }
+
   &__title {
     font-size: 1.5em;
     letter-spacing: 0.3em;

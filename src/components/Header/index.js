@@ -13,6 +13,7 @@ const Header = () => {
     <header className="header">
       <div className="header_left_part">
         <motion.img className="header_sun" src={HeaderSun} whileHover={{ scale: 1.2 }} drag /><h1 className="header__title"><Link to="/">'Travel</Link></h1>
+        <Link to="/8"><button type="button" className="header__404"> </button></Link>
       </div>
       <Nav active={isActive} setIsActive={setIsActive} />
     </header>
